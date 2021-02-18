@@ -1,0 +1,97 @@
+.RED {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+.WHITE {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.BLUE {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  background-color: blue;
+  border-radius: 5px;
+}
+.BLACK {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.SMALL {
+  margin: auto;
+  height: 3px;
+  width: 3px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.MEDIUM {
+  margin: auto;
+  height: 6px;
+  width: 6px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.BIG {
+  margin: auto;
+  height: 9px;
+  width: 9px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.button {
+  flex-grow: 0;
+  text-align: center;
+  margin: 4px;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  align-self: stretch;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.canvas {
+  background: white;
+  box-sizing: border-box;
+  border: 5px solid black;
+}
+
+.canvasWrapper {
+  text-align: center;
+  /* background: tomato; */
+  flex-grow: 1;
+  align-self: stretch;
+  overflow: hidden;
+}
+
+.root {
+  flex: 1;
+  align-self: stretch;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

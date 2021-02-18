@@ -1,0 +1,21 @@
+.root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color1);
+}
+
+.title {
+  font-family: "Ranchers", cursive;
+  font-size: 25px;
+  margin: 16px;
+  align-self: stretch;
+  text-align: center;
+}
+
+
+.alt {
+  color: var(--color4);
+}

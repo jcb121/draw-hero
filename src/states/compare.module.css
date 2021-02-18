@@ -1,0 +1,72 @@
+.root {
+  padding-top: 80px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color3);
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  right: -5px;
+  text-align: center;
+  background: var(--color4);
+  font-size: 25px;
+  font-family: "Ranchers", cursive;
+  transform: rotate(-2deg);
+  margin: 0;
+  padding: 16px;
+}
+
+.drawings {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+}
+
+.drawing {
+  background: white;
+  border: 5px solid black;
+  box-sizing: content-box;
+  width: 100%;
+  padding-top: 300%;
+  position: relative;
+}
+
+.drawingInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* this isn't needed if we use a fixed aspect ratio on parent... */
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.imageWarpperInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.imageWarpper {
+  position: relative; /* If you want text inside of it */
+  width: 100%;
+  padding-top: 100%;
+}

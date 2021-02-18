@@ -5,7 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100%;
 }
+
+#root {
+  height: 100%;
+}
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100% ;
+  /* CSS HEX */
+  --color1: #fbaf00ff;
+  --color2: #ffd639ff;
+  --color3: #ffa3afff;
+  --color4: #007cbeff;
+  --color5: #00af54ff;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,0 +1,13 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color1);
+}
+
+.countdown {
+  font-family: "Ranchers", cursive;
+  font-size: 150px;
+}

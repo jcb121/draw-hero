@@ -1,0 +1,13 @@
+.title {
+  position: absolute;
+  top: 45px;
+  left: -5px;
+  right: -5px;
+  text-align: center;
+  background: var(--color5);
+  font-size: 35px;
+  font-family: "Ranchers", cursive;
+  transform: rotate(-2deg);
+  margin: 0;
+  padding: 16px;
+}

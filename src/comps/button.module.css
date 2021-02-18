@@ -1,0 +1,14 @@
+.button {
+  padding: 16px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border-width: 0;
+  font-family: "Ranchers", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  background: var(--color4);
+  /* border: 5px solid var(--color5); */
+
+  margin: 10px;
+  transform: rotate(1deg);
+}
