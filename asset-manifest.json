@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/draw-hero/static/css/main.d3e79285.chunk.css",
+    "main.js": "/draw-hero/static/js/main.2fc7316d.chunk.js",
+    "main.js.map": "/draw-hero/static/js/main.2fc7316d.chunk.js.map",
+    "runtime-main.js": "/draw-hero/static/js/runtime-main.f7907a67.js",
+    "runtime-main.js.map": "/draw-hero/static/js/runtime-main.f7907a67.js.map",
+    "static/js/2.9a50b8db.chunk.js": "/draw-hero/static/js/2.9a50b8db.chunk.js",
+    "static/js/2.9a50b8db.chunk.js.map": "/draw-hero/static/js/2.9a50b8db.chunk.js.map",
+    "static/js/3.07f8428b.chunk.js": "/draw-hero/static/js/3.07f8428b.chunk.js",
+    "static/js/3.07f8428b.chunk.js.map": "/draw-hero/static/js/3.07f8428b.chunk.js.map",
+    "index.html": "/draw-hero/index.html",
+    "static/css/main.d3e79285.chunk.css.map": "/draw-hero/static/css/main.d3e79285.chunk.css.map",
+    "static/js/2.9a50b8db.chunk.js.LICENSE.txt": "/draw-hero/static/js/2.9a50b8db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7907a67.js",
+    "static/js/2.9a50b8db.chunk.js",
+    "static/css/main.d3e79285.chunk.css",
+    "static/js/main.2fc7316d.chunk.js"
+  ]
+}
